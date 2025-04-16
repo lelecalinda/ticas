@@ -1,28 +1,85 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Basic Page Challenge</title>
-  </head>
 
-  <body>
-    <div class="navbar">
-    <nav>
-      <a href="https://github.com/Lucas-M7" target="_blank">My Github</a>
-      <a href="#" target="_blank">Home</a>
-      <a href="#" target="_blank">Projects</a>
-      <a href="#" target="_blank">Contacts</a>
-      <button class="btn">Get in touch</button>
-    </nav>
-    </div>
+<head>
+	<title>Fsociety</title>
+	<link rel="stylesheet" type="text/css" href="style.css" />
 
-    <main>
-      <div class="main-site">
-        <h1>Welcome!</h1>
-        <img class="image" src="https://th.bing.com/th/id/R.3f8c95a5d80f2220558c2de0fc8dca5d?rik=zqWVXWq%2beMsVGw&pid=ImgRaw&r=0">
-      </div>
-    </main>
-  </body>
+	<!--boxicons link-->
+	<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+	<!--google fonts link-->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,700;0,900;1,500&display=swap" rel="stylesheet"
+	/>
+</head>
+
+<body>
+	<header>
+		<a href="#" class="logo"><span>F</span>society</a>
+
+		<ul class="navbar">
+			<li>
+				<a href="#" class="active">Inicío</a>
+			</li>
+			<li>
+				<a href="#">Sobre</a>
+			</li>
+			<li>
+				<a href="#">Serviços</a>
+			</li>
+			<li>
+				<a href="#">Portifólio</a>
+			</li>
+			<li>
+				<a href="#">Blog</a>
+			</li>
+			<li>
+				<a href="#">Contato</a>
+			</li>
+		</ul>
+
+		<div class="menu-btn">
+			<span>Menu</span>
+			<div class="bx bx-menu" id="menu-icon"></div>
+		</div>
+	</header>
+
+	<!--home section-->
+	<section class="home">
+		<div class="home-text">
+			<span>Dev Software</span>
+			<h1>Elliot Alderson</h1>
+			<p>I'm a beginner Website Template Developer, beginner Pentester</p>
+
+			<div class="main-btn">
+				<a href="#" class="btn">Baixar CV</a>
+				<a href="#" class="btn two">Contate-me</a>
+			</div>
+		</div>
+		<div class="home-img">
+			<img src="maskk.png" alt="mask" />
+		</div>
+	</section>
+
+	<div class="share">
+		<p>Veja minhas redes:</p>
+
+		<div>
+			<div class="sociais">
+				<a href="#"><i class="bx bxl-facebook"></i></a>
+				<a href="#"><i class="bx bxl-whatsapp"></i></a>
+				<a href="#"><i class="bx bxl-linkedin"></i></a>
+				<a href="#"><i class="bx bxl-telegram"></i></a>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--javascript link-->
+<script src="/script.js"></script>
+
 </html>
